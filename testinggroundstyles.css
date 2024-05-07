@@ -1,0 +1,29 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.object {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object-one {
+    background-color: red;
+}
+
+.object-two {
+    background-color: yellow;
+}
+
+.object-three {
+    background-color: blue;
+    align-self: flex-end;
+}
+
